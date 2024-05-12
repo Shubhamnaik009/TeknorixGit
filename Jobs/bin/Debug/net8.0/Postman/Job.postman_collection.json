@@ -1,0 +1,342 @@
+{
+	"info": {
+		"_postman_id": "f690aeb8-284e-4909-8223-a530f8bc77d3",
+		"name": "Job",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34870548"
+	},
+	"item": [
+		{
+			"name": "api/v1/Job/Addjobs",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/plain"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"test6\",\r\n  \"description\": \"test6\",\r\n  \"locationId\": \"203\",\r\n  \"departmentId\": \"102\",\r\n  \"closingDate\": \"2024-05-12T09:55:41.648Z\"\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:7232/api/v1/Job/Addjobs",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7232",
+					"path": [
+						"api",
+						"v1",
+						"Job",
+						"Addjobs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/v1/Job/Updatejobs",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/plain"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"jobId\": \"1009\",\r\n  \"title\": \"test7\",\r\n  \"description\": \"\",\r\n  \"locationId\": \"\",\r\n  \"departmentId\": \"\",\r\n  \"closingDate\": \"\"\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:7232/api/v1/Job/Updatejobs",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7232",
+					"path": [
+						"api",
+						"v1",
+						"Job",
+						"Updatejobs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/v1/Job/SearchJobById?JobId=1009",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/plain"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:7232/api/v1/Job/SearchJobById?JobId=1009",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7232",
+					"path": [
+						"api",
+						"v1",
+						"Job",
+						"SearchJobById"
+					],
+					"query": [
+						{
+							"key": "JobId",
+							"value": "1009"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/v1/Job/ListJobs",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/plain"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"q\": \"t\",\r\n  \"pageNo\": \"2\",\r\n  \"pageSize\": \"2\",\r\n  \"locationId\": \"\",\r\n  \"departmentId\": \"\"\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:7232/api/v1/Job/ListJobs",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7232",
+					"path": [
+						"api",
+						"v1",
+						"Job",
+						"ListJobs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/v1/Job/InsertLocation",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/plain"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"locationName\": \"testloc\",\r\n  \"lcoationAddress\": \"testaddres\"\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:7232/api/v1/Job/InsertLocation",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7232",
+					"path": [
+						"api",
+						"v1",
+						"Job",
+						"InsertLocation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/v1/Job/UpdateLocation",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/plain"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"locId\":211,\r\n  \"locationName\": \"test\",\r\n  \"lcoationAddress\": \"testttt\"\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:7232/api/v1/Job/UpdateLocation",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7232",
+					"path": [
+						"api",
+						"v1",
+						"Job",
+						"UpdateLocation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/v1/Job/ListLocations",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/plain"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:7232/api/v1/Job/ListLocations",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7232",
+					"path": [
+						"api",
+						"v1",
+						"Job",
+						"ListLocations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/v1/Job/InsertDepartment",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/plain"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"departmentName\": \"testtttt\"\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:7232/api/v1/Job/InsertDepartment",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7232",
+					"path": [
+						"api",
+						"v1",
+						"Job",
+						"InsertDepartment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/v1/Job/UpdateDepartment",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/plain"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"deptId\": 105,\r\n  \"departmentName\": \"test123424\"\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:7232/api/v1/Job/UpdateDepartment",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7232",
+					"path": [
+						"api",
+						"v1",
+						"Job",
+						"UpdateDepartment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/v1/Job/ListDepartments",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/plain"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:7232/api/v1/Job/ListDepartments",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7232",
+					"path": [
+						"api",
+						"v1",
+						"Job",
+						"ListDepartments"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

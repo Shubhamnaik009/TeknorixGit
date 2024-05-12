@@ -1,0 +1,152 @@
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\jobs.csproj.AssemblyReference.cache
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\jobs.GeneratedMSBuildEditorConfig.editorconfig
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\jobs.AssemblyInfoInputs.cache
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\jobs.AssemblyInfo.cs
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\jobs.csproj.CoreCompileInputs.cache
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\jobs.MvcApplicationPartsAssemblyInfo.cache
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\jobs.RazorAssemblyInfo.cache
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\jobs.RazorAssemblyInfo.cs
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\appsettings.Development.json
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\appsettings.json
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\jobs.staticwebassets.runtime.json
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\jobs.exe
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\jobs.deps.json
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\jobs.runtimeconfig.json
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\jobs.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\jobs.pdb
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Azure.Core.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Azure.Identity.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\System.Memory.Data.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\staticwebassets.build.json
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\staticwebassets.development.json
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\staticwebassets\msbuild.jobs.Microsoft.AspNetCore.StaticWebAssets.props
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\staticwebassets\msbuild.build.jobs.props
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.jobs.props
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.jobs.props
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\staticwebassets.pack.json
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\scopedcss\bundle\jobs.styles.css
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\scopedcss\projectbundle\jobs.bundle.scp.css
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\jobs.csproj.CopyComplete
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\jobs.dll
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\refint\jobs.dll
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\jobs.pdb
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\jobs.genruntimeconfig.cache
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\ref\jobs.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\New folder\Teknorix test\UserTransactions\obj\Debug\net8.0\jobs.MvcApplicationPartsAssemblyInfo.cs
+C:\New folder\Teknorix test\UserTransactions\bin\Debug\net8.0\Postman\Job.postman_collection.json
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\appsettings.json
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Postman\Job.postman_collection.json
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\jobs.staticwebassets.runtime.json
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\jobs.exe
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\jobs.deps.json
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\jobs.runtimeconfig.json
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\jobs.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\jobs.pdb
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\jobs.csproj.AssemblyReference.cache
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\jobs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\jobs.AssemblyInfoInputs.cache
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\jobs.AssemblyInfo.cs
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\jobs.csproj.CoreCompileInputs.cache
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\jobs.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\jobs.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\jobs.RazorAssemblyInfo.cache
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\jobs.RazorAssemblyInfo.cs
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\staticwebassets\msbuild.jobs.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\staticwebassets\msbuild.build.jobs.props
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.jobs.props
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.jobs.props
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\scopedcss\bundle\jobs.styles.css
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\scopedcss\projectbundle\jobs.bundle.scp.css
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\jobs.csproj.CopyComplete
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\jobs.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\refint\jobs.dll
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\jobs.pdb
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\jobs.genruntimeconfig.cache
+C:\Users\JoyBoy\source\repos\TeknorixGit\Jobs\obj\Debug\net8.0\ref\jobs.dll

@@ -1,0 +1,372 @@
+﻿USE [Jobs]
+GO
+/****** Object:  Table [dbo].[Department]    Script Date: 05/12/2024 16:30:53 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Department](
+	[DepartmentId] [int] IDENTITY(101,1) NOT NULL,
+	[DepartmentName] [nvarchar](255) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[DepartmentId] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+SET IDENTITY_INSERT [dbo].[Department] ON
+INSERT [dbo].[Department] ([DepartmentId], [DepartmentName]) VALUES (101, N'Engineering')
+INSERT [dbo].[Department] ([DepartmentId], [DepartmentName]) VALUES (102, N'Marketing')
+INSERT [dbo].[Department] ([DepartmentId], [DepartmentName]) VALUES (103, N'fin test')
+INSERT [dbo].[Department] ([DepartmentId], [DepartmentName]) VALUES (104, N'test')
+INSERT [dbo].[Department] ([DepartmentId], [DepartmentName]) VALUES (105, N'test123424')
+SET IDENTITY_INSERT [dbo].[Department] OFF
+/****** Object:  Table [dbo].[Location]    Script Date: 05/12/2024 16:30:53 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Location](
+	[LocationId] [int] IDENTITY(201,1) NOT NULL,
+	[LocationName] [nvarchar](50) NOT NULL,
+	[LocationAddress] [nvarchar](255) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[LocationId] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+SET IDENTITY_INSERT [dbo].[Location] ON
+INSERT [dbo].[Location] ([LocationId], [LocationName], [LocationAddress]) VALUES (201, N'asdad', N'fdsfdsf')
+INSERT [dbo].[Location] ([LocationId], [LocationName], [LocationAddress]) VALUES (202, N'asdadsssadasd', N'sdasdas')
+INSERT [dbo].[Location] ([LocationId], [LocationName], [LocationAddress]) VALUES (203, N'ttttttt', N'ddddd')
+INSERT [dbo].[Location] ([LocationId], [LocationName], [LocationAddress]) VALUES (207, N'test', N'ttttttttttttttttttt')
+INSERT [dbo].[Location] ([LocationId], [LocationName], [LocationAddress]) VALUES (208, N'test123', N'ttttttttttttttttttt')
+INSERT [dbo].[Location] ([LocationId], [LocationName], [LocationAddress]) VALUES (209, N'tttt', N'ttttsdasdas')
+INSERT [dbo].[Location] ([LocationId], [LocationName], [LocationAddress]) VALUES (210, N'a', N'b')
+INSERT [dbo].[Location] ([LocationId], [LocationName], [LocationAddress]) VALUES (211, N'test', N'testttt')
+SET IDENTITY_INSERT [dbo].[Location] OFF
+/****** Object:  StoredProcedure [dbo].[ListLocations]    Script Date: 05/12/2024 16:30:52 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[ListLocations]
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Retrieve all locations from the Location table
+    SELECT
+        LocationId,
+        LocationName,
+        LocationAddress
+    FROM
+        Location;
+END
+GO
+/****** Object:  StoredProcedure [dbo].[ListDepartments]    Script Date: 05/12/2024 16:30:52 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[ListDepartments]
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT
+        DepartmentId,
+        DepartmentName
+    FROM
+        [dbo].[Department];
+END
+GO
+/****** Object:  Table [dbo].[Job]    Script Date: 05/12/2024 16:30:53 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Job](
+	[JobId] [int] IDENTITY(1001,1) NOT NULL,
+	[Title] [nvarchar](255) NOT NULL,
+	[Description] [nvarchar](max) NOT NULL,
+	[LocationId] [int] NOT NULL,
+	[DepartmentId] [int] NOT NULL,
+	[ClosingDate] [datetime] NOT NULL,
+	[PostedDate] [datetime] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[JobId] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+SET IDENTITY_INSERT [dbo].[Job] ON
+INSERT [dbo].[Job] ([JobId], [Title], [Description], [LocationId], [DepartmentId], [ClosingDate], [PostedDate]) VALUES (1005, N'test1', N'test1', 201, 101, CAST(0x0000B16E00A2310D AS DateTime), CAST(0x0000B16E00FCE473 AS DateTime))
+INSERT [dbo].[Job] ([JobId], [Title], [Description], [LocationId], [DepartmentId], [ClosingDate], [PostedDate]) VALUES (1006, N'test2', N'test2', 202, 102, CAST(0x0000B16E00A2310D AS DateTime), CAST(0x0000B16E00FCF54C AS DateTime))
+INSERT [dbo].[Job] ([JobId], [Title], [Description], [LocationId], [DepartmentId], [ClosingDate], [PostedDate]) VALUES (1007, N'test3', N'test4', 201, 102, CAST(0x0000B16E00A2310D AS DateTime), CAST(0x0000B16E00FD02D7 AS DateTime))
+INSERT [dbo].[Job] ([JobId], [Title], [Description], [LocationId], [DepartmentId], [ClosingDate], [PostedDate]) VALUES (1008, N'test5', N'test5', 201, 101, CAST(0x0000B16E00A2310D AS DateTime), CAST(0x0000B16E00FD1529 AS DateTime))
+INSERT [dbo].[Job] ([JobId], [Title], [Description], [LocationId], [DepartmentId], [ClosingDate], [PostedDate]) VALUES (1009, N'test7', N'test6', 203, 102, CAST(0x0000000000000000 AS DateTime), CAST(0x0000B16E00FE555A AS DateTime))
+SET IDENTITY_INSERT [dbo].[Job] OFF
+/****** Object:  StoredProcedure [dbo].[InsertLocation]    Script Date: 05/12/2024 16:30:52 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[InsertLocation]
+    @LocationName NVARCHAR(50),
+    @LocationAddress NVARCHAR(255),
+    @LocationId INT OUTPUT  -- Define an output parameter for LocationId
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    INSERT INTO Location (LocationName, LocationAddress)
+    VALUES (@LocationName, @LocationAddress);
+
+    -- Retrieve the generated LocationId and set it to the output parameter
+    SET @LocationId = SCOPE_IDENTITY();
+END;
+GO
+/****** Object:  StoredProcedure [dbo].[InsertDepartment]    Script Date: 05/12/2024 16:30:52 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[InsertDepartment]
+    @DepartmentName NVARCHAR(255)
+AS
+BEGIN
+    INSERT INTO Department (DepartmentName)
+    VALUES (@DepartmentName);
+END;
+GO
+/****** Object:  StoredProcedure [dbo].[UpdateLocation]    Script Date: 05/12/2024 16:30:52 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[UpdateLocation]
+    @LocationId INT,
+    @LocationName NVARCHAR(50),
+    @LocationAddress NVARCHAR(255),
+    @RowsAffected INT OUTPUT -- Output parameter for rows affected
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    IF EXISTS (SELECT 1 FROM [dbo].[Location] WHERE LocationId = @LocationId)
+    BEGIN
+        UPDATE [dbo].[Location]
+        SET
+            LocationName = CASE WHEN @LocationName IS NOT NULL THEN @LocationName ELSE NULL END,
+            LocationAddress = CASE WHEN @LocationAddress IS NOT NULL THEN @LocationAddress ELSE NULL END
+        WHERE
+            LocationId = @LocationId;
+        
+        SET @RowsAffected = @@ROWCOUNT;
+    END
+    ELSE
+    BEGIN
+        SET @RowsAffected = 0; 
+    END
+END;
+GO
+/****** Object:  StoredProcedure [dbo].[UpdateDepartment]    Script Date: 05/12/2024 16:30:52 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[UpdateDepartment]
+    @DepartmentId INT,
+    @DepartmentName NVARCHAR(50)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Check if @DepartmentName is NULL or empty
+    IF @DepartmentName IS NOT NULL AND LTRIM(RTRIM(@DepartmentName)) <> ''
+    BEGIN
+        -- Update only if @DepartmentName is different from the current value
+        UPDATE [dbo].[Department]
+        SET
+            DepartmentName = @DepartmentName
+        WHERE
+            DepartmentId = @DepartmentId
+            AND DepartmentName <> @DepartmentName;
+    END
+END
+GO
+/****** Object:  StoredProcedure [dbo].[SPUUpdateJob]    Script Date: 05/12/2024 16:30:52 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SPUUpdateJob]
+    @JobId INT,
+    @Title NVARCHAR(100) = NULL,
+    @Description NVARCHAR(MAX) = NULL,
+    @LocationId INT = NULL,
+    @DepartmentId INT = NULL,
+    @ClosingDate DATETIME = NULL
+AS
+BEGIN
+
+    IF EXISTS (SELECT 1 FROM Job WHERE JobId = @JobId)
+    BEGIN
+        
+        IF @Title IS NOT NULL
+        BEGIN
+            UPDATE Job
+            SET Title = @Title
+            WHERE JobId = @JobId
+                AND Title <> @Title; 
+        END
+
+      
+        IF @Description IS NOT NULL
+        BEGIN
+            UPDATE Job
+            SET Description = @Description
+            WHERE JobId = @JobId
+                AND Description <> @Description; 
+        END
+
+       
+        IF @LocationId IS NOT NULL
+        BEGIN
+            UPDATE Job
+            SET LocationId = @LocationId
+            WHERE JobId = @JobId
+                AND LocationId <> @LocationId; 
+        END
+
+        IF @DepartmentId IS NOT NULL
+        BEGIN
+            UPDATE Job
+            SET DepartmentId = @DepartmentId
+            WHERE JobId = @JobId
+                AND DepartmentId <> @DepartmentId; 
+        END
+        IF @ClosingDate IS NOT NULL
+        BEGIN
+            UPDATE Job
+            SET ClosingDate = @ClosingDate
+            WHERE JobId = @JobId
+                AND ClosingDate <> @ClosingDate;
+    END
+END
+END
+GO
+/****** Object:  StoredProcedure [dbo].[SPGetJobList]    Script Date: 05/12/2024 16:30:52 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SPGetJobList]
+    @SearchString NVARCHAR(100),
+    @PageNumber INT,
+    @PageSize INT,
+    @LocationId INT = NULL,
+    @DepartmentId INT = NULL
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    DECLARE @Offset INT = (@PageNumber - 1) * @PageSize;
+    DECLARE @StartRow INT = @Offset + 1;
+    DECLARE @EndRow INT = @Offset + @PageSize;
+
+    WITH FilteredJobs AS (
+        SELECT
+            J.JobId, J.Title, J.Description, L.LocationName, L.LocationAddress, D.DepartmentName, J.ClosingDate,
+            ROW_NUMBER() OVER (ORDER BY J.JobId) AS RowNum
+        FROM
+            Job J
+            INNER JOIN Location L ON L.LocationId = J.LocationId
+            INNER JOIN Department D ON D.DepartmentId = J.DepartmentId 
+        WHERE
+            (J.Title LIKE '%' + @SearchString + '%' OR @SearchString = '')
+            AND (@LocationId IS NULL OR L.LocationId = @LocationId)
+            AND (@DepartmentId IS NULL OR D.DepartmentId = @DepartmentId)
+    )
+    SELECT
+        JobId, Title, Description, LocationName, LocationAddress, DepartmentName, ClosingDate
+    FROM
+        FilteredJobs
+    WHERE
+        RowNum BETWEEN @StartRow AND @EndRow;
+END;
+GO
+/****** Object:  StoredProcedure [dbo].[SPGetJobById]    Script Date: 05/12/2024 16:30:52 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[SPGetJobById]
+    @JobId INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    IF EXISTS (SELECT 1 FROM Job WHERE JobId = @JobId)
+    BEGIN
+        SELECT
+            j.JobId,
+            j.Title,
+            j.Description,
+            j.LocationId,
+            l.LocationName,
+            l.LocationAddress,
+            j.DepartmentId,
+            d.DepartmentName,
+            j.ClosingDate
+        FROM
+            Job j
+        INNER JOIN
+            Location l ON j.LocationId = l.LocationId
+        INNER JOIN
+            Department d ON j.DepartmentId = d.DepartmentId
+        WHERE
+            j.JobId = @JobId;
+    END
+    ELSE
+    BEGIN
+        SELECT 'Job does not exist for JobId ' + CAST(@JobId AS VARCHAR(10)) AS ErrorMessage;
+    END
+END
+GO
+/****** Object:  StoredProcedure [dbo].[InsertJob]    Script Date: 05/12/2024 16:30:52 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[InsertJob]
+    @Title NVARCHAR(255),
+    @Description NVARCHAR(MAX),
+    @LocationId INT,
+    @DepartmentId INT,
+    @ClosingDate DATETIME,
+    @JobId INT OUTPUT
+AS
+BEGIN
+    DECLARE @PostedDate DATETIME = GETDATE();
+
+    INSERT INTO Job (Title, Description, LocationId, DepartmentId, ClosingDate, PostedDate)
+    VALUES (@Title, @Description, @LocationId, @DepartmentId, @ClosingDate, @PostedDate);
+
+    SET @JobId = SCOPE_IDENTITY(); 
+END;
+GO
+/****** Object:  ForeignKey [FK_Job_Department]    Script Date: 05/12/2024 16:30:53 ******/
+ALTER TABLE [dbo].[Job]  WITH CHECK ADD  CONSTRAINT [FK_Job_Department] FOREIGN KEY([DepartmentId])
+REFERENCES [dbo].[Department] ([DepartmentId])
+GO
+ALTER TABLE [dbo].[Job] CHECK CONSTRAINT [FK_Job_Department]
+GO
+/****** Object:  ForeignKey [FK_Job_Location]    Script Date: 05/12/2024 16:30:53 ******/
+ALTER TABLE [dbo].[Job]  WITH CHECK ADD  CONSTRAINT [FK_Job_Location] FOREIGN KEY([LocationId])
+REFERENCES [dbo].[Location] ([LocationId])
+GO
+ALTER TABLE [dbo].[Job] CHECK CONSTRAINT [FK_Job_Location]
+GO
