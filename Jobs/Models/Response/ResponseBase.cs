@@ -9,7 +9,7 @@
 
         public ResponseBase(Exception ex)
         {
-            StatusCode = 200;
+            StatusCode = 401;
             ErrorMessage = ex.Message.ToString();
         }
 
